@@ -1,4 +1,4 @@
 # EcolePlusExtension
 
-To download this Chrome extension, go to chrome://extension and load it manualy.
-The scripts need a page refresh between each compute.
+To download this Chrome extension, go to <strong>chrome://extensions</strong> and load it manualy.
+The script need a page refresh between each compute.
