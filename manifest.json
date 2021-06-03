@@ -1,0 +1,19 @@
+{
+    "name":  "Note for ecole-directe",
+    "description": "A simple and ready-to-use extension, that allowed you to compute your notes in - ecoledirecte.com -.",
+    "version": "0.1.0",
+    "manifest_version": 2,
+    "background": {
+        "scripts": ["./js/background.js"],
+        "persistant": true
+    },
+    "options_page": "./options.html",
+    "browser_action": {
+        "default_popup": "popup.html"
+    },
+    "permissions": [
+        "webNavigation",
+        "tabs",
+        "<all_urls>"
+    ]
+}
